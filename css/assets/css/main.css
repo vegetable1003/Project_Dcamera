@@ -1396,6 +1396,28 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 575px) {
+
+			.poptrox-popup .nav-next:before,
+			.poptrox-popup .nav-previous:before {
+				width: 35px;
+				height: 28px;
+				background-size: contain;
+				margin: -11px 0 0 0;
+			}
+
+			.poptrox-popup .closer:before {
+				right: 10px;
+				top: 10px;
+				width: 18px;
+				height: 18px;
+				box-shadow: inset 0 0 0 1px #fff;
+				background-size: contain;
+				opacity: 0.5;
+			}
+
+		}
+
 /* Gallery */
 
 	.gallery {
@@ -1540,11 +1562,12 @@ input, select, textarea {
 			#header {
 				height: 2.5em;
 				line-height: 2.5em;
+				display: block;
 			}
 
 				#header h1 {
-					text-align: center;
-					position: relative;
+					/* text-align: center; */
+					position: absolute;
 					left: 0;
 					top: 0;
 					height: 2.5em;
@@ -1556,7 +1579,34 @@ input, select, textarea {
 					}
 
 				#header nav {
-					display: none;
+					display: block;
+				}
+
+		}
+
+		@media screen and (max-width: 575px) {
+
+			#header {
+				height: 2em;
+				line-height: 2em;
+				display: block;
+			}
+
+				#header h1 {
+					/* text-align: left; */
+					position: absolute;
+					left: 0;
+					top: 0;
+					height: 2em;
+					line-height: 2em;
+				}
+
+					#header h1 a {
+						font-size: 1em;
+					}
+
+				#header nav {
+					display: block;
 				}
 
 		}
