@@ -544,6 +544,15 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 575px) {
+
+			body, input, textarea, select {
+				font-size: 10pt;
+				line-height: 1em;
+			}
+
+		}
+
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 900;
 		color: inherit;
@@ -565,6 +574,14 @@ input, select, textarea {
 
 		h2 {
 			font-size: 1.5em;
+		}
+
+	}
+
+	@media screen and (max-width: 575px) {
+
+		h2 {
+			line-height: 1em;
 		}
 
 	}
@@ -630,6 +647,19 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 736px) {
+
+			.box {
+				padding: 1em;
+			}
+
+				.box.style2 {
+					padding: 1.5em 1.25em 1.5em 1.25em;
+					background-color: rgba(255, 255, 255, 0.9);
+				}
+
+		}
+
+		@media screen and (max-width: 575px) {
 
 			.box {
 				padding: 1em;
@@ -1536,6 +1566,14 @@ input, select, textarea {
 	}
 
 		@media screen and (max-width: 736px) {
+
+			body {
+				padding-top: 2.5em;
+			}
+
+		}
+
+		@media screen and (max-width: 575px) {
 
 			body {
 				padding-top: 2.5em;
