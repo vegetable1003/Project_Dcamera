@@ -1842,7 +1842,7 @@ input, select, textarea {
 				}
 
 				.main.style2 .button.anchored {
-					display: none;
+					display: block;
 				}
 
 				.main.style2 .content {
