@@ -1510,7 +1510,7 @@ input, select, textarea {
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: url("/theme/images/1.png");
+		background: url("images/1.png");
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
@@ -1874,7 +1874,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("/theme/images/1.png");
+		background: url("images/1.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -1884,7 +1884,7 @@ input, select, textarea {
 /* One */
 
 	#one {
-		background: url("/theme/images/6.png");
+		background: url("images/6.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -1893,14 +1893,14 @@ input, select, textarea {
 /* Two */
 
 	#two {
-		background: url("/theme/images/8.png");
+		background: url("images/8.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 
 	#work{
-		background: url("/theme/images/6.png");
+		background: url("images/6.png");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
